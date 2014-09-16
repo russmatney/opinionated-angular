@@ -22,3 +22,7 @@ the very next time that ng-include is needed.
 
 ###Factory, Service, Resource?
 
+Where possible, a $resource should be used to represent any api endpoint.
+
+Services tend to be convenient places for any data manipulation or logic that needs to happen between the resource and a controller.
+
